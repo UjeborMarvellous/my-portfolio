@@ -15,7 +15,7 @@ const Header = () => {
       <header className='header shadow-2xl lg:pb-24 lg:px-24 sm'>
         <div className='container d_flex flex'>
           <div className=''>
-              <div className="flex mr-32">
+              <div className="flex mr-12">
                 <img src="Img/1.jpg" alt='logo' className="Imag"/>
                 <h1 className="text-5xl my-auto font-medium text-black">MU<span className="text-blue-500 italic">Tech</span></h1>
               </div>

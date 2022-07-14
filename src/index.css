@@ -19,14 +19,22 @@ body {
   /* background-color: #ecf0f3; */
 }
 .full {
-  width: 100%;
-  height: 400px;
+    width: 100%;
+    object-fit: contain;
+    height: 400px;
 }
 .fits {
   margin-top: 6rem;
 }
 .hov:hover {
   background: #ff014f;
+}
+#blog {
+  margin: 0 15%;
+}
+.blog {
+  margin: 2% 15%;
+  padding: 2% 0;
 }
  .container {
   max-width: 95%;
@@ -56,4 +64,40 @@ body {
 }
 .top {
   margin-top: 80px;
+}
+@media (max-width: 768px) {
+  .blog {
+    margin: 2% 6%;
+    padding: 2% 0;
+  }
+  .snt {
+    font-size: 25px !important;
+  }
+  #blog {
+    margin: 0 7%;
+  }
+  .mails {
+    display: grid;
+  }
+  .email {
+    margin-bottom: 1.6rem;
+  }
+  .icon {
+    display: flex;
+    justify-content: space-between;
+  }
+  .swert {
+    margin-left: auto !important;
+  }
+  .p {
+    font-size: 12px !important;
+  }
+  .p2 {
+    font-size: 20px;
+  }
+  .full {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
 }

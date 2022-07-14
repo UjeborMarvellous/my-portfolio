@@ -12,7 +12,7 @@ function Features() {
     return (
         <>
             <div id='features'>
-                <h1 className="font-bold capitalise text-3xl text-center pt-12">Languages Use By MU</h1>
+                <h1 className="font-bold capitalise text-3xl text-center pt-12 px">Languages Use By MU</h1>
                 <div className="md:grid md:grid-cols-1 lg:grid-cols-3 lg:grid gap-8 mxs md:mt-20">
                     <div className="img1">
                         <img src="Img/3.jpg" alt="" className='full contain p-5 transition delay-150 duration-300 ease-in-out hover:-translate-y-4 h-4/4 shadow-2xl border-4' />
@@ -38,11 +38,11 @@ function Features() {
                 </div>
             </div>
             <div id="blog">
-                <div className="ml-16 pt-12 ">
+                <div className="pt-12 ">
                     <h1 className="text-red-500 uppercase text-3xl font-semibold p2">About Me</h1>
-                    <h1 className='text-5xl font-bold py-10 snt p2'>Thank you for visiting <br />{text}.</h1>
+                    <h1 className='text-5xl font-bold pt-3 snt p2'>Thank you for visiting <br />{text}.</h1>
                 </div>
-                <div className="flex py-6">
+                <div className="flex">
                     <div className="two text-center">
                         <h1 className='text-3xl uppercase snt font-medium py-8'>Want to know more about me?</h1>
                         <h1 className='text-xl p'>A hard-working and determined youth seeking an opportunity to succeed in a dynamic company that paves room for growth. I'm a skilled self-taught programmer and confident that my knowledge, ability, and experience in Web development with HTML,CSS,TAILWIND CSS,BOOSTRAP,REACT JS, and NEX JS etc will allow me to deliver successful results for any Company.</h1>

@@ -70,6 +70,14 @@
     width: 510px;
   }
   @media (max-width: 768px) {
+    /* .hero .right_img {
+      background: linear-gradient(145deg, #e2e8ec, #ffffff);
+      box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+      border-radius: 10px;
+      height: 580px;
+      width: 510px;
+      margin-top: 20%;
+    } */
     .hero h3 {
         font-weight: 100;
         letter-spacing: 2px;
@@ -104,7 +112,7 @@
     }
     .hero .right_img {
       width: 96%;
-      height: 74vh;
+      height: 47vh;
     }
     .hero .right_img img {
       width: 90%;
